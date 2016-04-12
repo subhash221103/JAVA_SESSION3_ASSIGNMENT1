@@ -1,0 +1,18 @@
+package day3;
+
+import java.util.Scanner;
+
+/*
+ * WAP to find square root and cube root of a given number;
+ */
+public class Assignment1 {
+
+	public static void main(String [] args){
+		System.out.println("Enter number to find square root and cube root ");
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		System.out.println("Square root is  "+  Math.sqrt(num));
+		System.out.println("Cube root is  "+  Math.cbrt(num));
+	}
+	
+}
